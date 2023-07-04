@@ -1,0 +1,46 @@
+$base-font-size: 16;
+
+$font-family: "outfit", Tahoma, Geneva, Verdana, sans-serif;
+
+$dark-primary-color: rgb(2, 58, 58);
+$default-primary-color: teal;
+$light-primary-color: #b2dfdb98;
+
+$header-background-color: $dark-primary-color;
+$header-color: #fff;
+
+$mainscreen-dark-background-color: #0a223f;
+$mainscreen-light-background-color: $light-primary-color;
+$mainscreen-light-color: #fff;
+$mainscreen-dark-color: #000;
+
+$footer-background-color: rgb(2, 58, 58);
+$footer-color: #fff;
+
+$mainscreen-success-background-color: #4caf50;
+$mainscreen-success-text-color: #2a1f1f;
+$mainscreen-success-header-text-color: lighten(
+  $mainscreen-success-background-color,
+  50%
+);
+
+$mainscreen-error-background-color: #f44336;
+$mainscreen-error-text-color: #260909;
+$mainscreen-error-header-text-color: lighten(
+  $mainscreen-error-background-color,
+  50%
+);
+
+$mainscreen-warning-background-color: #ff9800;
+$mainscreen-warning-text-color: #3b0c0c;
+$mainscreen-warning-header-text-color: lighten(
+  $mainscreen-warning-background-color,
+  50%
+);
+
+$mainscreen-info-background-color: #2196f3;
+$mainscreen-info-text-color: #fff;
+$mainscreen-info-header-text-color: darken(
+  $mainscreen-info-background-color,
+  50%
+);
